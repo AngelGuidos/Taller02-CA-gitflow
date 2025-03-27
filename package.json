@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,7 +16,8 @@
     "commitizen": "^4.3.1",
     "commitlint-config-gitmoji": "^2.3.1",
     "cz-conventional-changelog": "^3.3.0",
-    "cz-emoji-conventional": "^1.2.1"
+    "cz-emoji-conventional": "^1.2.1",
+    "husky": "^9.1.7"
   },
   "config": {
     "commitizen": {
